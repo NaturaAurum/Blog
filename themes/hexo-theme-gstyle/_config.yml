@@ -1,0 +1,38 @@
+# main menu navigation
+menu:
+  home: /
+  archives: /archives
+  about: /about
+
+# Miscelaneous
+favicon: /favicon.ico
+
+show_post_category: true
+show_post_tags: true
+
+active_nav: true # show active status on nav menu
+
+sidebar: true # whether to show the sidebar
+widgets:
+  # - category
+  # - tag
+  # - tagcloud
+  # - archive
+  - recent_posts
+  - links
+links:
+  - title: "GitHub"
+    url: http://www.github.com/NaturaAurum
+    intro: "Github"
+  - title: "Facebook"
+    url: https://www.facebook.com/profile.php?id=100002830896559
+    intro: "Facebook"
+  - title: "Twitter"
+    url: https://twitter.com/NaturaAurum
+    intro: "Twitter"
+
+# disqus_shortname: 
+duoshuo_shortname: 
+#site statistic
+google_analytics:  
+
