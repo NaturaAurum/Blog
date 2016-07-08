@@ -61,7 +61,7 @@ a {
 }
 
 nav {
-    /*background-color: #5ADB40;*/
+    /*background-color: #4184f3;*/
     color: #fff;
     height: 56px;
     display: flex;
@@ -89,7 +89,7 @@ nav a {
     left: 0;
     right: 0;
     top: 0;
-    /*background-color: #5ADB40;*/
+    /*background-color: #4184f3;*/
     background-color: transparent;
     margin: 0;
     padding: 56px 0 0 0;
@@ -116,6 +116,7 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
 }
 
 .logo {
@@ -143,7 +144,7 @@ nav a {
 }
 
 .menu-wrapper li a:hover {
-    /*background: #5ADB40;*/
+    /*background: #3D5AFE;*/
 }
 
 .menu-wrapper a {
@@ -251,7 +252,7 @@ article hr{
     background-position: center;
     position: relative;
     padding-bottom: 45%;
-    background-color: #D663FF;
+    background-color: #4184f3;
 }
 .post-header .post-title{
     margin: 0;
@@ -260,7 +261,7 @@ article hr{
 
 }
 .post-header.with-cover{
-    background-color: #D663FF;
+    background-color: #4184f3;
 }
 .post-header.with-cover .post-title{
     color: #fff;
@@ -349,7 +350,7 @@ h1{
     border-left: 2px solid #3c80f6;
 }
 .tocify li.tocify-focus a{
-    color:#D663FF;
+    color:#3c80f6;
 }
 .pager{
     display: flex;

@@ -10,7 +10,7 @@ favicon: /favicon.ico
 show_post_category: true
 show_post_tags: true
 
-active_nav: true # show active status on nav menu
+active_nav: false # show active status on nav menu
 
 sidebar: true # whether to show the sidebar
 widgets:
@@ -22,17 +22,20 @@ widgets:
   - links
 links:
   - title: "GitHub"
-    url: http://www.github.com/NaturaAurum
-    intro: "Github"
+    url: https://github.com/NaturaAurum
+    intro: "GitHub"
   - title: "Facebook"
-    url: https://www.facebook.com/profile.php?id=100002830896559
+    url: https://www.facebook.com/profile.php?id=100002830896559&ref=bookmarks
     intro: "Facebook"
   - title: "Twitter"
     url: https://twitter.com/NaturaAurum
     intro: "Twitter"
 
-# disqus_shortname: 
-duoshuo_shortname: 
+# disqus_shortname: wayou
+duoshuo_shortname: Taewoo.Kim
 #site statistic
 google_analytics:  
+# baidu_analytics: 392796d51567e848aebf813b65cb8656
+baidu_analytics: 
+
 
