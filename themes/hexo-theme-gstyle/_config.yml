@@ -2,7 +2,7 @@
 menu:
   home: /
   archives: /archives
-  about: /about
+  #about: /about
 
 # Miscelaneous
 favicon: /favicon.ico
