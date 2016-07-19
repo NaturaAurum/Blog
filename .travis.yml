@@ -1,5 +1,6 @@
 language: node_js
-
+node_js:
+    - "0.12"
 before_install:
 - npm install -g hexo
 
@@ -14,12 +15,13 @@ before_script:
 script:
     - hexo generate
     
-after_succes:
-    - mkdir .deploy
-    - cd .deploy
-    - git init
-    - git remote add origin $DEPLOY_REPO
-    - cp -r ../public/* .
-    - git add -A .
-    - git commit -m 'Content Updated'
-    - git push --force --quiet origin master
+after_success:
+    #- mkdir .deploy
+    #- cd .deploy
+    #- git init
+    #- git remote add origin $DEPLOY_REPO
+    #- cp -r ../public/* .
+    #- git add -A .
+    #- git commit -m 'Content Updated'
+    #- git push --force --quiet origin master
+    - hexo deploy --silent
