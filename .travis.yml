@@ -6,6 +6,7 @@ before_install:
 
 install:
 - npm install
+- npm install hexo-renderer-mathjax --save
 
 before_script:
     - git config --global user.name 'NatruaAurum via Travis CI'
@@ -24,4 +25,4 @@ after_success:
     #- git add -A .
     #- git commit -m 'Content Updated'
     #- git push --force --quiet origin master
-    - hexo deploy --silent
+    - hexo deploy
