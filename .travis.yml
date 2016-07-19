@@ -1,0 +1,19 @@
+language: node_js
+branches:
+  only:
+  - master
+before_install:
+- npm install -g hexo
+- npm install
+install:
+- hexo generate
+env:
+  global:
+    secure: cxyB2fmNZbf7SMtcbI74R/ifMfwwPho/kUv7O1OklMIQYc6esX5KQkqm+pd1Kmyg64quHLrKd+OPRmodhQ2zgh6aAYT8AWdiKSPa0ofg5eP8Opq+T2h30BUryW+BilMcQkEOTTxI5EZHm/al0kA6C6VDTXAJQFhg9Kd2T9eFpWZ59+3eq5vEl0M+yqlkPUUe6XVygcqzSNPI2D928MRW8jaaAEnjkzN0eknj9SC7NXFjM5TY+s0Oa8iW6VlfGs2oDv3dClzUGWIttbI1ralxlw+OHqKLNut33WksWmKEfglVX5Q/LZIv0uz4v9xTo4K+fT0MooZnZkNngV2BhJcDUEiUf0Q7Zjt8CdmKW9y1FlcRMGuVvfbUOEI2C8yvMY+FcQlIHmYAY5kAIa8neq+XDaN9W307xp/+wG9anWyVyHzgZuJVsDhlCLOUA5FmWYCz9+E+/tRfiOuoHnKbKDFkVumGfT11JhkEVIELKCqGTtrwXe07ilFsDEx++QLKqJ09Pp9+L6/8cSkrr/gpDLcVS/EHWSi7gz7D9v1U8+K1kgOZa34rJx6IQdmKfWSkQiRvelwPwkMJwepFOb4MqtgRp9Pf64V/gm6B12Dl3/XsvPb07Af7D/p05hUbyq2NvjN1t8HNtgokBgZn5X2oCXGpDXzKU79S58VZMQuY9akwV/0=
+before_script:
+    - git config --global user.name 'NatruaAurum via Travis CI'
+    - git config --global user.email 'natura0321@gmail.com'
+    - sed -i'' "s~git@github.com:NaturaAurum/Blog.git~https://${GH_TOKEN}:x-oauth-basic@github.com/NaturaAurum/Blog.git~" _config.yml
+    
+script:
+    - hexo deploy --silent
