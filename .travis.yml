@@ -17,12 +17,12 @@ script:
     - hexo generate
     
 after_success:
-    #- mkdir .deploy
-    #- cd .deploy
-    #- git init
-    #- git remote add origin $DEPLOY_REPO
-    #- cp -r ../public/* .
-    #- git add -A .
-    #- git commit -m 'Content Updated'
-    #- git push --force --quiet origin master
-    - hexo deploy
+    - mkdir .deploy
+    - cd .deploy
+    - git init
+    - git remote add origin $DEPLOY_REPO
+    - cp -r ../public/* .
+    - git add -A .
+    - git commit -m 'Content Updated'
+    - git push --force --quiet origin master
+    #- hexo deploy
