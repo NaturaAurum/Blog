@@ -7,3 +7,4 @@ tags:
 ---
 
 Git Bisect 추가 
+나중에 꼭 쓰자.
