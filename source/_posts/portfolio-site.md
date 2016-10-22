@@ -14,4 +14,4 @@ tags:
 
 회사 테마랑 같지만 뭐...상관없겠지? 나중에 블로그랑 비슷한 색으로 바꾸어 놓아야 겠다.
 
-[포트폴리오 사이트](naturaaurum.github.io/portfolio)
+[포트폴리오 사이트](https://naturaaurum.github.io/portfolio)
